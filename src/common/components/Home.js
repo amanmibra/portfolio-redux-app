@@ -106,7 +106,7 @@ class Home extends Component {
 
 			</div>
 
-			<Banner />
+			{/* <Banner /> */}
 
   		</div>
 
