@@ -7,7 +7,6 @@
     "clean": "rm -rf dist",
     "start": "node src/server/index.js --progress --colors --profile",
     "build": "npm run clean && NODE_ENV=production webpack -p --progress --colors --profile",
-    "postinstall": "npm run build"
   },
   "repository": {
     "type": "git",
