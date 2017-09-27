@@ -2,6 +2,15 @@
    color:#fff;
 }
 
+.my-face{
+  background: url('assets/aman-profile.jpg') no-repeat;
+  width:300px;
+  height:300px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-right: 250px;
+}
+
 /**
 * Loader
 */
@@ -98,6 +107,24 @@ ul.clients li.shipserv-logo {
    width:218px;
 }
 
+ul.clients li.duke-logo {
+   background: url('assets/duke-logo.png') no-repeat;
+   width:180px;
+   height:180px;
+}
+
+ul.clients li.medsender-logo {
+   background: url('assets/medsender-logo.jpg') no-repeat;
+   width:180px;
+   height:180px;
+}
+
+ul.clients li.cisco-logo {
+   background: url('assets/cisco-logo.jpg') no-repeat;
+   width:180px;
+   height:177px;
+}
+
 /**
 * Skill Boxes on Home Page
 */
@@ -143,8 +170,8 @@ ul.clients li.shipserv-logo {
    color:#fff;
    padding:0.2em 1em 0.2em;
    margin:0.2em;
-   clear:both; 
-   font-style:normal; 
+   clear:both;
+   font-style:normal;
    box-shadow:1px 1px 1px #ccc;
 }
 

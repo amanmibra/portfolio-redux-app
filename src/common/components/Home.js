@@ -3,9 +3,9 @@ import Banner from './layout/Banner';
 
 class Home extends Component {
 
-  constructor(props){
+  constructor(props) {
     super(props);
-    this.eventToggleSidebar = this.eventToggleSidebar.bind(this)
+    this.eventToggleSidebar = this.eventToggleSidebar.bind(this);
   }
 
   eventToggleSidebar(e) {
@@ -16,42 +16,43 @@ class Home extends Component {
   render() {
 
     return (
-
       	<div className="posts">
-
+        <div className="my-face"></div>
   			<div className="post banner">
-			    <h1 className="post-title">I build <em>scalable</em>, <em>maintainable</em> and <em>secure</em> enterprise web applications.</h1>
-    			<p>for <em>agencies</em>, <em>bluechips</em>, <em>start-ups</em> and sometimes, <em>myself</em>. <a href="#" onClick={this.eventToggleSidebar}> Find out More</a></p>
+			    <h1 className="post-title">I am learning how to build <em>scalable</em>, <em>maintainable</em> and <em>secure</em> web applications.</h1>
+    			<p><a href="#" onClick={this.eventToggleSidebar}> Find out More</a></p>
 
 			</div>
 
 		  	<div className="post clearfix">
 
-				<h2>Technologies I build with:</h2>
+				<h2>Some of the Technologies I have built with:</h2>
 
 				<div className="skill-item clearfix">
-					<h4>Client Side JS</h4>
+					<h4>Client Side</h4>
 					<ul className="">
-						<li><em>Backbone</em></li>
 						<li><em><b>*</b><b>*</b>React</em>
 							<ul>
 								<li><em><b>*</b>Redux</em></li>
-								<li><em>Flux</em></li>
 							</ul>
 						</li>
-						<li><em>D3</em></li>
+            <li><em>Rails</em>
+						</li>
 					</ul>
 				</div>
 
 
 				<div className="skill-item clearfix">
-					<h4>Server Side JS</h4>
+					<h4>Server Side</h4>
 					<ul>
-						<li><em>MongoDB</em></li>
 						<li><em><b>*</b>Node</em>
 							<ul>
 								<li><em><b>*</b>Express</em></li>
-								<li><em>Hapi</em></li>
+							</ul>
+						</li>
+            <li><em>Rails</em>
+							<ul>
+								<li><em>ActiveRecord</em></li>
 							</ul>
 						</li>
 					</ul>
@@ -60,10 +61,9 @@ class Home extends Component {
 				<div className="skill-item clearfix">
 					<h4>Testing</h4>
 					<ul>
-						<li><em>Jasmine</em></li>
-						<li><em>Karma</em></li>
-						<li><em>Protractor</em></li>
-						<li><em>Jest</em></li>
+						<li><em>Mocha</em></li>
+						<li><em>Enzyme</em></li>
+						<li><em>Phantom</em></li>
 					</ul>
 				</div>
 
@@ -72,14 +72,16 @@ class Home extends Component {
 					<ul className="clearfix">
 						<li><em><b>*</b>Nginx</em></li>
 						<li><em><b>*</b>Webpack</em></li>
-						<li><em>Gulp</em></li>
-						<li><em>Grunt</em></li>
+						<li><em>GCP</em></li>
 					</ul>
 				</div>
 
 				<div className="exclaimation">
-					<em><b>*</b> This site is built with these technologies. View the <a href="https://github.com/amanmibra/portfolio-redux-app">github repo here</a>.</em><br/>
-					<em><b>**</b> Yep, I know React can be used on the server side too. This site is Isomorphical rendered.</em>
+					<em><b>*</b> This site is built with these technologies.
+          View the <a href="https://github.com/amanmibra/portfolio-redux-app">
+          github repo here</a>.</em><br/>
+					<em><b>**</b> Yep, I know React can be used on the server side too.
+          This site is Isomorphical rendered.</em>
 				</div>
 
   			</div>
@@ -90,13 +92,16 @@ class Home extends Component {
 				<h2>Companies I have worked with:</h2>
 
 				<ul className="clients">
-					<li className="goldmans-logo">Goldman Sachs</li>
+          <li className="medsender-logo">Medsender</li>
+          <li className="duke-logo">Duke Cancer Institiute</li>
+          <li className="cisco-logo">Cisco</li>
+					{/* <li className="goldmans-logo">Goldman Sachs</li>
 					<li className="orange-logo">Orange</li>
 					<li className="tesco-logo">Tesco</li>
 					<li className="timeout-logo">Timeout</li>
 					<li className="wiley-logo">John Wiley and Sons</li>
 					<li className="covestor-logo">Covestor</li>
-					<li className="shipserv-logo">Shipserv</li>
+					<li className="shipserv-logo">Shipserv</li> */}
 				</ul>
 
 			</div>
