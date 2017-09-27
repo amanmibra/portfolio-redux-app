@@ -18,13 +18,13 @@ class Home extends Component {
     return (
 
       	<div className="posts">
-  
+
   			<div className="post banner">
 			    <h1 className="post-title">I build <em>scalable</em>, <em>maintainable</em> and <em>secure</em> enterprise web applications.</h1>
     			<p>for <em>agencies</em>, <em>bluechips</em>, <em>start-ups</em> and sometimes, <em>myself</em>. <a href="#" onClick={this.eventToggleSidebar}> Find out More</a></p>
 
 			</div>
-  
+
 		  	<div className="post clearfix">
 
 				<h2>Technologies I build with:</h2>
@@ -78,7 +78,7 @@ class Home extends Component {
 				</div>
 
 				<div className="exclaimation">
-					<em><b>*</b> This site is built with these technologies. View the <a href="https://github.com/caljrimmer/portfolio-redux-app">github repo here</a>.</em><br/>
+					<em><b>*</b> This site is built with these technologies. View the <a href="https://github.com/amanmibra/portfolio-redux-app">github repo here</a>.</em><br/>
 					<em><b>**</b> Yep, I know React can be used on the server side too. This site is Isomorphical rendered.</em>
 				</div>
 
@@ -104,7 +104,7 @@ class Home extends Component {
 			<Banner />
 
   		</div>
-  
+
     );
   }
 }
