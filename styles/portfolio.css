@@ -55,7 +55,10 @@
     font-size: 18px;
     color: #a6a6a6;
 }
-
+.portfolio_item span.role_time {
+    font-size: 18px;
+    color: #000000;
+}
 /**
 * Individual
 */
@@ -94,4 +97,12 @@
 
 .pwul {
 	background:#fff url(assets/pwul.jpg) top no-repeat;
+}
+
+.medsender {
+	background:#fff url(assets/medsender.png) top no-repeat;
+}
+
+.duke {
+	background:#fff url(assets/duke_cancer.png) top no-repeat;
 }

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { getPortfolio } from '../api/portfolio';
 import classNames from 'classnames';
 
-class Portfolio extends Component {
+class Experience extends Component {
 
   render() {
 
@@ -13,7 +13,8 @@ class Portfolio extends Component {
 				<div key={role.title} className="role_wrapper clearfix">
 					<p className="role">Role</p>
 					<p className="role_title">{role.title}<br />
-					<span className="role_skills">{role.skills}</span></p>
+					<span className="role_time">{role.time}</span><br />
+          <span className="role_skills">{role.skills}</span></p>
 				</div>
 			)
 		});
@@ -38,4 +39,4 @@ class Portfolio extends Component {
   }
 }
 
-export default Portfolio;
+export default Experience;
