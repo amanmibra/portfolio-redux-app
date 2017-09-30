@@ -4,6 +4,7 @@ import Repos from './about/Repos';
 
 import Loader from './layout/Loader';
 import Banner from './layout/Banner';
+// import SimpleSlider from './SimpleSlider';
 
 class About extends Component {
   constructor(props) {
