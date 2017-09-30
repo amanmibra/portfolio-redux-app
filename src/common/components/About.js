@@ -3,8 +3,7 @@ import { connect } from 'react-redux';
 import Repos from './about/Repos';
 
 import Loader from './layout/Loader';
-import Banner from './layout/Banner';
-// import SimpleSlider from './SimpleSlider';
+import DemoSlider from './DemoSlider';
 
 class About extends Component {
   constructor(props) {
@@ -19,15 +18,12 @@ class About extends Component {
     const { results, isFetching, lastUpdated, error } = this.props;
     return (
       <div>
-
-      		{/* <Banner /> */}
-
+          <DemoSlider />
       	  <div className="about">
-
       	  	<h3>About Me</h3>
 
       	  	<p>I am currently a Duke sophmore majoring in Computer Science and minoring in Electrical & Computer Engineering
-              and getting a certificate in Innovation & Entrepreneurship</p>
+              and getting a certificate in Innovation & Entrepreneurship.</p>
 
             <p>My main goal is to gain more experiences in the field of Software Engineering, and find what fits me the best
               before I jump head first into the job market. I plan to do this by gaining internships at innovative
