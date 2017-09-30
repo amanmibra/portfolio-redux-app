@@ -9,11 +9,6 @@ var webpackConfig = {
     filename: 'bundle.js',
     publicPath: '/static/'
   },
-  module: {
-    loaders: [
-      { test: /\.css$/, loader: 'style-loader!css-loader' },
-    ]
-  },
   plugins: [
     new webpack.optimize.OccurenceOrderPlugin(),
     new webpack.NoErrorsPlugin()
@@ -80,7 +75,7 @@ if (process.env.NODE_ENV === 'production') {
         }
       },
       { test: /\.(png|jpg|gif|jpeg)$/, loader: 'url-loader?limit=8192'},
-      { test: /\.css$/, loader: 'style-loader!css-loader' },
+      { test: /\.css$/, loader: 'style-loader!css-loader' }
     ]},
     entry : [
       'webpack-hot-middleware/client',
