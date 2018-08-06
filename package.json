@@ -18,7 +18,9 @@
   "dependencies": {
     "axios": "^0.7.0",
     "classnames": "^2.1.5",
+    "copy-webpack-plugin": "^4.5.2",
     "express": "^4.13.3",
+    "favicons-webpack-plugin": "^0.0.9",
     "generator-react-slick": "^0.3.0",
     "history": "1.13.0",
     "ignore-loader": "^0.1.2",

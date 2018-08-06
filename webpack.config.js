@@ -3,6 +3,8 @@ var webpack = require('webpack');
 var merge = require('merge');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
+var FaviconsWebpackPlugin = require('favicons-webpack-plugin')
+
 var webpackConfig = {
   output: {
     path: path.join(__dirname, 'dist'),
@@ -11,7 +13,8 @@ var webpackConfig = {
   },
   plugins: [
     new webpack.optimize.OccurenceOrderPlugin(),
-    new webpack.NoErrorsPlugin()
+    new webpack.NoErrorsPlugin(),
+    new FaviconsWebpackPlugin('aman.jpg')
   ]
 };
 
