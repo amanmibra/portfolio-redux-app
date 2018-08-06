@@ -1,24 +1,31 @@
 export function getPortfolio() {
   return [
+      {
+      link : 'http://www.heroku.com',
+      title : 'Heroku @ Salesforce',
+      classname : 'heroku',
+      roles : [
+        {
+          title : 'Software Engineering Intern - Ecosystem',
+          time: 'May 2018 - August 2018',
+          skills : 'Typescript, oclif, Elixir, Phoenix'
+        }
+      ]
+    },
     {
     link : 'http://www.medsender.com',
     title : 'Medsender',
     classname : 'medsender',
     roles : [
       {
-        title : 'Front End Developer',
-        time: 'August 2017 - Present',
-        skills : 'React, Node'
-      },
-      {
-        title : 'Back End Developer',
-        time: 'August 2017 - Present',
-        skills : 'Rails, MySQL, GCP'
+        title : 'Full Stack Engineer',
+        time: 'August 2017 - May 2018',
+        skills : 'React, Rails, MySQL, GCP'
       },
       {
         title : 'Full Stack Intern',
         time: 'Summer 2017',
-        skills : 'React, Node, Rails'
+        skills : 'React, Rails'
       }
     ]
   },
