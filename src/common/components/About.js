@@ -22,15 +22,14 @@ class About extends Component {
       		{/* <Banner /> */}
 
       	  <div className="about">
+            <div className="my-face"></div>
+            
 
       	  	<h3>About Me</h3>
 
-      	  	<p>I am currently a Duke sophmore majoring in Computer Science and minoring in Electrical & Computer Engineering
-              and getting a certificate in Innovation & Entrepreneurship</p>
+      	  	<p>I am currently a Duke junior majoring in Computer Science and minoring in Electrical & Computer Engineering and getting a certificate in Islamic Studies.</p>
 
-            <p>My main goal is to gain more experiences in the field of Software Engineering, and find what fits me the best
-              before I jump head first into the job market. I plan to do this by gaining internships at innovative
-              companies with strong ethics and missions and with the willingness to take risks for the best.</p>
+            <p>I am from North Carolina, and I have already worked at startups to corporate businesses from New York all the way to San Francisco. I have a great interest in Cloud Computing and I am very experinced in Full Stack development.</p>
 
       	  	<h3>About Site</h3>
 

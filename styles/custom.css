@@ -11,6 +11,20 @@
   margin-right: 250px;
 }
 
+.my-home-face{
+  background: url('assets/aman.jpg') no-repeat;
+  background-size: 500px;
+  width:300px;
+  height:300px;
+  background-position: center;
+  border-radius: 10%;
+  margin: 0 auto;
+  margin-right: 250px;
+}
+
+.options-img {
+   background: url('./assets/options.png') no-repeat;
+}
 /**
 * Loader
 */
@@ -72,41 +86,6 @@ ul.clients li {
    box-shadow:1px 1px 1px #ccc;
 }
 
-ul.clients li.goldmans-logo {
-   background: url('assets/goldmans-logo.jpg') no-repeat;
-   width:124px;
-}
-
-ul.clients li.orange-logo {
-   background: url('assets/orange-logo.jpg') no-repeat;
-   width:70px;
-}
-
-ul.clients li.tesco-logo {
-   background: url('assets/tesco-logo.jpg') no-repeat;
-   width:181px;
-}
-
-ul.clients li.timeout-logo {
-   background: url('assets/timeout-logo.jpg') no-repeat;
-   width:151px;
-}
-
-ul.clients li.wiley-logo {
-   background: url('assets/wiley-logo.jpg') no-repeat;
-   width:169px;
-}
-
-ul.clients li.covestor-logo {
-   background: url('assets/covestor-logo.jpg') no-repeat;
-   width:218px;
-}
-
-ul.clients li.shipserv-logo {
-   background: url('assets/shipserv-logo.jpg') no-repeat;
-   width:218px;
-}
-
 ul.clients li.duke-logo {
    background: url('assets/duke-logo.png') no-repeat;
    width:180px;
@@ -125,6 +104,17 @@ ul.clients li.cisco-logo {
    height:177px;
 }
 
+ul.clients li.heroku-logo {
+   background: url('./assets/heroku.png') no-repeat;
+   width:180px;
+   height:177px;
+}
+
+ul.clients li.salesforce-logo {
+   background: url('./assets/salesforce.png') no-repeat;
+   width:180px;
+   height:177px;
+}
 /**
 * Skill Boxes on Home Page
 */

@@ -63,46 +63,15 @@
 * Individual
 */
 
-.goldmans {
-	background:#fff url(assets/goldmans.jpg) top no-repeat;
-}
-
-.orange {
-	background:#fff url(assets/orange.jpg) top no-repeat;
-}
-
-.tesco {
-	background:#fff url(assets/tesco.png) top no-repeat;
-}
-
-.timeout {
-	background:#fff url(assets/timeout.png) top no-repeat;
-}
-
-.wiley {
-	background:#fff url(assets/wiley.png) top no-repeat;
-}
-
-.hellas {
-	background:#fff url(assets/hellas.png) top no-repeat;
-}
-
-.shipserv {
-	background:#fff url(assets/shipserv.png) top no-repeat;
-}
-
-.covestor {
-	background:#fff url(assets/covestor.png) top no-repeat;
-}
-
-.pwul {
-	background:#fff url(assets/pwul.jpg) top no-repeat;
-}
-
 .medsender {
 	background:#fff url(assets/medsender.png) top no-repeat;
 }
 
 .duke {
 	background:#fff url(assets/duke_cancer.png) top no-repeat;
+}
+
+.heroku {
+	background:#fff url(./assets/heroku2.png) top no-repeat;
+	background-position: 50% 25%;
 }

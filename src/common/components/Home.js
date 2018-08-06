@@ -17,9 +17,9 @@ class Home extends Component {
 
     return (
       	<div className="posts">
-        <div className="my-face"></div>
+        <div className="my-home-face"></div>
   			<div className="post banner">
-			    <h1 className="post-title">I am learning how to build <em>scalable</em>, <em>maintainable</em> and <em>secure</em> web applications.</h1>
+			    <h1 className="post-title">I have experince in building <em>scalable</em>, <em>maintainable</em> and <em>secure</em> web applications.</h1>
     			<p><a href="#" onClick={this.eventToggleSidebar}> Find out More</a></p>
 
 			</div>
@@ -71,7 +71,8 @@ class Home extends Component {
 					<h4>Deployment</h4>
 					<ul className="clearfix">
 						<li><em><b>*</b>Nginx</em></li>
-						<li><em><b>*</b>Webpack</em></li>
+            <li><em><b>*</b>Webpack</em></li>
+						<li><em>Heroku</em></li>
 						<li><em>GCP</em></li>
 					</ul>
 				</div>
@@ -92,6 +93,8 @@ class Home extends Component {
 				<h2>Companies I have worked with:</h2>
 
 				<ul className="clients">
+          <li className="heroku-logo">Medsender</li>
+          <li className="salesforce-logo">Medsender</li>
           <li className="medsender-logo">Medsender</li>
           <li className="duke-logo">Duke Cancer Institiute</li>
           <li className="cisco-logo">Cisco</li>
