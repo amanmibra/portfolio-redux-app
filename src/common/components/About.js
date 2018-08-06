@@ -3,7 +3,6 @@ import { connect } from 'react-redux';
 import Repos from './about/Repos';
 
 import Loader from './layout/Loader';
-import DemoSlider from './DemoSlider';
 
 class About extends Component {
   constructor(props) {
@@ -18,10 +17,9 @@ class About extends Component {
     const { results, isFetching, lastUpdated, error } = this.props;
     return (
       <div>
-          <DemoSlider />
       	  <div className="about">
             <div className="my-face"></div>
-            
+
 
       	  	<h3>About Me</h3>
 
