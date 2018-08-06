@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "A portfolio template built with Redux and React",
   "scripts": {
-    "slate": "rm -rf node_modules && npm install",
+    "slate": "rm -rf node_modules && yarn install",
     "clean": "rm -rf dist",
     "start": "node src/server/index.js --progress --colors --profile",
     "start-prod": "NODE_ENV=production node src/server/index.js --progress --colors --profile",
@@ -19,13 +19,17 @@
     "axios": "^0.7.0",
     "classnames": "^2.1.5",
     "express": "^4.13.3",
+    "generator-react-slick": "^0.3.0",
     "history": "1.13.0",
+    "ignore-loader": "^0.1.2",
     "react": "^0.13.3",
     "react-redux": "^2.1.2",
+    "react-responsive-carousel": "^3.1.27",
     "react-router": "^1.0.0-rc1",
     "redux": "^3.0.0",
     "redux-router": "^1.0.0-beta3",
-    "redux-thunk": "^0.1.0"
+    "redux-thunk": "^0.1.0",
+    "yo": "^2.0.0"
   },
   "devDependencies": {
     "babel": "^5.8.21",

@@ -40,7 +40,7 @@ if (process.env.NODE_ENV === 'production') {
       }),
       new ExtractTextPlugin("app.css"),
       new webpack.optimize.UglifyJsPlugin({minimize: true})
-    ]  
+    ]
   });
 
 }else{
@@ -83,9 +83,9 @@ if (process.env.NODE_ENV === 'production') {
     ],
     plugins : [
       new webpack.HotModuleReplacementPlugin()
-    ]  
+    ]
   });
-  
+
 }
 
 module.exports = webpackConfig;
