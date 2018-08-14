@@ -29,3 +29,9 @@
   background-position: 50% 5%;
   background-size: 400px 250px;
 }
+
+.kville {
+  background:#fff url(./assets/kville.png) top no-repeat;
+  background-position: 50% 5%;
+  background-size: 500px 250px;
+}
