@@ -25,7 +25,7 @@ class About extends Component {
 
       	  	<p>I am currently a Duke junior majoring in Computer Science and minoring in Electrical & Computer Engineering and getting a certificate in Islamic Studies.</p>
 
-            <p>I am from North Carolina, and I have already worked at startups to corporate businesses from New York all the way to San Francisco. I have a great interest in Cloud Computing and I am very experinced in Full Stack development.</p>
+            <p>I am from North Carolina, and I have already worked at startups to corporate businesses from New York City all the way to San Francisco. I have a great interest in Cloud Computing and I am very experinced in Full Stack development.</p>
 
       	  	<h3>About Site</h3>
 

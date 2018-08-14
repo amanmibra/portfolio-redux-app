@@ -6,7 +6,7 @@ class Experience extends Component {
 
   render() {
 
-  	const portfolio = getPortfolio();
+  const portfolio = getPortfolio();
 	const RoleRows = (roles) => {
 		return roles.map((role) => {
 			return (

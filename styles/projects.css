@@ -1,0 +1,31 @@
+.portfolio_item .project_tile {
+  text-transform: none;
+}
+
+.portfolio_item p.project_description {
+    font-size: 18px;
+    color: #a6a6a6;
+    text-align: left;
+    padding-top: 10px;
+  }
+
+/*
+.medsender {
+	background:#fff url(assets/medsender.png) top no-repeat;
+}
+
+.duke {
+	background:#fff url(assets/duke_cancer.png) top no-repeat;
+}
+
+.heroku {
+	background:#fff url(./assets/heroku2.png) top no-repeat;
+	background-position: 50% 25%;
+}
+ */
+
+.addons_admin {
+  background:#fff url(./assets/addons.gif) top no-repeat;
+  background-position: 50% 5%;
+  background-size: 400px 250px;
+}
