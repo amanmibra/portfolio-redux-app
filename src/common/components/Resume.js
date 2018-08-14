@@ -20,7 +20,7 @@ class Resume extends Component {
     return (
       <div>
         <p style={{ textAlign: "center" }}>To download a copy, options are below.</p>
-        <iframe src="https://onedrive.live.com/embed?cid=DDBC24E3C0D79D42&resid=DDBC24E3C0D79D42%21625761&authkey=AIeb-zpWdlCloVU&em=2" width={"700px"} height={"700px"} frameborder="0" scrolling="no"></iframe>
+        <iframe src="https://onedrive.live.com/embed?cid=DDBC24E3C0D79D42&resid=DDBC24E3C0D79D42%21625761&authkey=AIeb-zpWdlCloVU&em=2" width={"750px"} height={"1050px"} frameborder="0" scrolling="no"></iframe>
       </div>
     );
   }
