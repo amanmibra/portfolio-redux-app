@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Banner from './layout/Banner';
+// import Typed from 'react-typed';
 
 class Home extends Component {
 
@@ -17,6 +18,14 @@ class Home extends Component {
 
     return (
       	<div className="posts">
+          {/* <Typed
+            strings={["Here you can find hardware", "Here you can find software", "Here you can find net tools"]}
+            typeSpeed={50}
+            backSpeed={50}
+            backDelay={1}
+            loop
+            smartBackspace
+          /> */}
         <div className="my-home-face"></div>
   			<div className="post banner">
 			    <h1 className="post-title">I have experince in building <em>scalable</em>, <em>maintainable</em> and <em>secure</em> web applications.</h1>
@@ -36,8 +45,6 @@ class Home extends Component {
 								<li><em><b>*</b>Redux</em></li>
 							</ul>
 						</li>
-            <li><em>Rails</em>
-						</li>
 					</ul>
 				</div>
 
@@ -50,9 +57,9 @@ class Home extends Component {
 								<li><em><b>*</b>Express</em></li>
 							</ul>
 						</li>
-            <li><em>Rails</em>
+            <li><em>Ruby</em>
 							<ul>
-								<li><em>ActiveRecord</em></li>
+								<li><em>Ruby on Rails</em></li>
 							</ul>
 						</li>
 					</ul>
@@ -70,8 +77,8 @@ class Home extends Component {
 				<div className="skill-item clearfix">
 					<h4>Deployment</h4>
 					<ul className="clearfix">
-						<li><em><b>*</b>Nginx</em></li>
             <li><em><b>*</b>Webpack</em></li>
+            <li><em>Nginx</em></li>
 						<li><em>Heroku</em></li>
 						<li><em>GCP</em></li>
 					</ul>
@@ -93,8 +100,9 @@ class Home extends Component {
 				<h2>Companies I have worked with:</h2>
 
 				<ul className="clients">
-          <li className="heroku-logo">Medsender</li>
-          <li className="salesforce-logo">Medsender</li>
+          <li className="cruise-logo">Cruise</li>
+          <li className="heroku-logo">Heroku</li>
+          <li className="salesforce-logo">Salesforce</li>
           <li className="medsender-logo">Medsender</li>
           <li className="duke-logo">Duke Cancer Institiute</li>
           <li className="cisco-logo">Cisco</li>

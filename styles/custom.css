@@ -98,6 +98,12 @@ ul.clients li.medsender-logo {
    height:180px;
 }
 
+ul.clients li.cruise-logo {
+   background: url('assets/cruise-logo.jpg') no-repeat;
+   width:180px;
+   height:177px;
+}
+
 ul.clients li.cisco-logo {
    background: url('assets/cisco-logo.jpg') no-repeat;
    width:180px;

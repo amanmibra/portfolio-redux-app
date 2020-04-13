@@ -23,13 +23,11 @@ class About extends Component {
 
       	  <div className="about">
             <div className="my-face"></div>
-            
+
 
       	  	<h3>About Me</h3>
 
-      	  	<p>I am currently a Duke junior majoring in Computer Science and minoring in Electrical & Computer Engineering and getting a certificate in Islamic Studies.</p>
-
-            <p>I am from North Carolina, and I have already worked at startups to corporate businesses from New York all the way to San Francisco. I have a great interest in Cloud Computing and I am very experinced in Full Stack development.</p>
+      	  	<p>I studied Computer Science at Duke. I am currently a Software Engineer at Cruise on the Machine Learning Platform team.</p>
 
       	  	<h3>About Site</h3>
 
